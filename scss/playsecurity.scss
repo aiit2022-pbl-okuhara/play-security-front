@@ -1,5 +1,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 
+$body-color: #5A5A5A;
+
 // default variable redefinition settings
 $font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 
@@ -27,6 +29,11 @@ $theme-colors: (
 	"light": $light,
 	"dark": $dark
 );
+
+body {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
 
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
